@@ -1,0 +1,1 @@
+console.log("js2文件的输出");
