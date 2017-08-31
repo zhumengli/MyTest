@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-size: 16px; }
+
+html, body, .bigBox {
+  width: 100%;
+  height: 100%; }
+
+.bigBox .main {
+  position: relative; }
+
+.bigBox .main .maskBox {
+  position: absolute; }
+
+.bigBox .header {
+  display: flex;
+  -webkit-justify-content: space-between;
+  align-items: center; }
+
+html, body, .bigBox {
+  background-color: #818d9b; }
+
+.bigBox .header {
+  width: 100%;
+  height: 1.0rem;
+  background-color: #393a3f;
+  color: #feffff; }
+  .bigBox .header > span {
+    padding-left: 0.31rem; }
+    .bigBox .header > span i {
+      font-size: 0.36rem;
+      font-weight: bolder;
+      padding-right: 0.3rem; }
+    .bigBox .header > span a {
+      color: #feffff;
+      font-size: 0.32rem;
+      font-weight: normal;
+      display: inline-block;
+      border-left: 2px solid #2f3035;
+      padding-left: 0.3rem;
+      letter-spacing: 0.03rem; }
+  .bigBox .header > i {
+    font-size: 0.36rem;
+    font-weight: normal;
+    padding-right: 0.31rem; }
+.bigBox .main {
+  width: 100%; }
+  .bigBox .main .maskBox {
+    width: 90%;
+    height: 9.6rem;
+    background-color: #fff;
+    border-radius: 8px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 12%); }
+    .bigBox .main .maskBox .topDiv {
+      width: 100%;
+      text-align: center;
+      padding: 0.7rem 0; }
+      .bigBox .main .maskBox .topDiv span {
+        display: inline-block;
+        width: 3.11rem;
+        height: 0.75rem; }
+        .bigBox .main .maskBox .topDiv span img {
+          max-width: 100%; }
+      .bigBox .main .maskBox .topDiv a {
+        font-size: 0.36rem;
+        color: #4c4f54;
+        letter-spacing: 0.03rem; }
+    .bigBox .main .maskBox .centerDiv {
+      width: 100%;
+      padding: 0 0.3rem; }
+      .bigBox .main .maskBox .centerDiv p {
+        width: 100%;
+        line-height: 40px;
+        padding-top: 0.6rem;
+        border-bottom: 1px solid #838987;
+        padding-bottom: 0.16rem; }
+        .bigBox .main .maskBox .centerDiv p i {
+          font-size: 0.42rem;
+          color: #128e58;
+          font-weight: bolder;
+          padding-right: 0.15rem;
+          padding-left: 0.2rem; }
+        .bigBox .main .maskBox .centerDiv p input {
+          border: none;
+          outline: none;
+          font-size: 0.32rem;
+          color: #adadad;
+          font-weight: normal; }
+    .bigBox .main .maskBox .botDiv {
+      width: 100%;
+      text-align: center;
+      padding-top: 0.85rem; }
+      .bigBox .main .maskBox .botDiv button {
+        width: 95%;
+        height: 0.8rem;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-size: 0.30rem;
+        font-weight: normal;
+        background-color: #2fba77;
+        border-radius: 5px; }
+
+/*# sourceMappingURL=index.css.map */
